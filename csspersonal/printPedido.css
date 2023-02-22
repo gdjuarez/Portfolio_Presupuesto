@@ -1,0 +1,24 @@
+
+html { background: #000; padding: 5px; }
+body{
+  background-color: #ffffcc;
+  border-radius: 5px;
+  padding:5px;
+  width:95%;
+  
+}
+#Tabla {width:100%;box-shadow:0 0 10px #ddd;text-align:left}
+#Tabla  th {padding:5px;}
+#Tabla  td {padding:5px;border:solid;border-width:0 0 1px;}
+
+.balance{margin-left:280px}
+
+@media print {
+	* { -webkit-print-color-adjust: exact; }
+	html { background: none; padding: 0; }
+	body { box-shadow: none; margin: 0;background: none; }
+	span:empty { display: none; }
+	td:empty { display: none; }
+	.botones { display: none; }
+		
+}
