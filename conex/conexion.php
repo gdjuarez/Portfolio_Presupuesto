@@ -1,12 +1,12 @@
 <?php
 /*
-     $db_host="localhost";
-    $db_nombre="u345632271_maderas";
-    $db_usuario="u345632271_gifsys";
-    $db_contra="Gifsys1502";
+    $db_host="localhost";
+    $db_nombre="";
+    $db_usuario="";
+    $db_contra="";
  */
     $db_host="localhost";
-    $db_nombre="u345632271_maderas";
+    $db_nombre="maderas";
     $db_usuario="root";
     $db_contra="";
   
